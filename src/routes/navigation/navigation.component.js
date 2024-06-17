@@ -1,14 +1,15 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import { Fragment } from 'react'
 
 function Navigation() {
   return (
-    <div>
+    <Fragment>
       <div>
         <h1> I am Navigation</h1>
       </div>
       <Outlet />
-    </div>
+    </Fragment>
   )
 }
 
